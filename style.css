@@ -106,11 +106,13 @@ li {
 .info-tiles{
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .tile{
     width: 175px;
     height: 175px;
+    border-style: solid;
     border-color: #3882F6;
 }
 
