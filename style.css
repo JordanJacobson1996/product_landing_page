@@ -1,3 +1,5 @@
+
+
 body {
     display: flex;
     flex-direction: column;
@@ -14,6 +16,15 @@ a {
 li {
     list-style-type: none;
 
+}
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-style: none;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
 }
 
 .hero{
@@ -83,14 +94,7 @@ li {
     color: #E5E7EB;
 }
 
-.hero-text button{
-    background-color: #3882F6;
-    color: #F9FAF8;
-    border-style: none;
-    width: 100px;
-    height: 25px;
-    border-radius: 20px;
-}
+
 
 .information{
     display: flex;
@@ -147,6 +151,44 @@ li {
 .quote p {
     font-size: 36px;
 }
+
+.action{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 100px;
+}
+
+.sign-up-container{
+    display: flex;
+    width: 75%;
+    background-color: #3882F6;
+    padding: 32px 64px 32px 64px;
+    border-radius: 5px;
+}
+
+.call-to-action{
+    flex: 1;
+    color: #E5E7EB;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.sign-up-button{
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-button button{
+    border-style: solid;
+    border-color: #E5E7EB;
+}
+
 
 
 
