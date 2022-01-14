@@ -96,6 +96,8 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 32px;
+    gap: 32px;
 }
 
 .info-container{
@@ -114,10 +116,37 @@ li {
     height: 175px;
     border-style: solid;
     border-color: #3882F6;
+    border-radius: 15px;
 }
 
 .info{
     width: 175px;
     text-align: center;
 }
+
+.quote-section{
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    width: 100%;
+    padding: 50px;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+}
+
+.quote-author{
+    display: flex;
+    font-weight: bold;
+    justify-content: flex-end;
+}
+
+.quote p {
+    font-size: 36px;
+}
+
+
 
