@@ -189,6 +189,9 @@ button{
     border-color: #E5E7EB;
 }
 
-
-
-
+.footer{
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 32px;
+}
